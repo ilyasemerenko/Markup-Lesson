@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+
+.wrapper {
+	position: relative;
+	left: 80px;
+	width: 1170px;
+}
+
+.column{
+}
+
+.left_column{
+	width: 25%;
+	padding: 20px;
+	margin: 20px;
+	float: left;
+	background: red;
+}
+
+.central_column{
+	padding: 20px;
+	margin: 20px;
+	float: left;
+	width:40%;
+	background: green;
+}
+
+.right_column{
+	position: fixed;
+	top: 8px;
+	left: 930px; 
+	width: 300px;
+	padding: 20px;
+	margin: 20px;
+	background: yellow;
+}
