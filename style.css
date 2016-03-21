@@ -9,19 +9,17 @@
 }
 
 .column{
+	padding: 20px;
+	margin: 20px;
 }
 
 .left_column{
-	width: 25%;
-	padding: 20px;
-	margin: 20px;
+	width: 25%;	
 	float: left;
 	background: red;
 }
 
 .central_column{
-	padding: 20px;
-	margin: 20px;
 	float: left;
 	width:40%;
 	background: green;
@@ -32,7 +30,5 @@
 	top: 8px;
 	left: 930px; 
 	width: 300px;
-	padding: 20px;
-	margin: 20px;
 	background: yellow;
 }
